@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width,
+                   initial-scale=1.0">
+                   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+          href="styles.css">
+    <title></title>
+</head>
+
+<body>
+<div class="mobile-container container__nav">
+    <div class="nav">
+      <a href="#home" class="active logo-spinner"><i class="fa fa-spinner fa-2xl"></i></a>
+      <div id="nav__menu">
+        <ul>
+            <li class="item1"><a href="#" alt="item1">Home</a></li>
+            <li class="item1"><a href="#" alt="item1">About</a></li>
+            <li class="item1"><a href="#" alt="item1">Services</a></li>
+            <li class="item1"><a href="#" alt="item1">Contact</a></li>
+            <li class="item1"><a href="#" alt="item1">Testimonials</a></li>
+            <li class="item1"><a href="#" alt="item1">References</a></li> 
+        </ul>
+      </div>
+      <a href="javascript:void(0);" id="remove-icon" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    </div>
+    
+    <script>
+    function myFunction() {
+      var x = document.getElementById("nav__menu");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+    </script>
+</body>
+</html>
